@@ -1,13 +1,10 @@
 {
-  "name": "navyweek",
+"name": "nn_prog_event",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node server.js",
+    "build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
@@ -37,3 +34,6 @@
     "vite": "^7.3.1"
   }
 }
+
+
+
