@@ -6,8 +6,6 @@ import Admin from "./Admin";
 import AdminLogin from "./AdminLogin"; // ✅ THIS was missing
 import ProtectedRoute from "./routes/ProtectedRoute";
 
-import "./App.css";
-
 function App() {
   return (
     <Router>
