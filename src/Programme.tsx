@@ -30,8 +30,8 @@ function Programme() {
     const fetchData = async () => {
       try {
         const [progRes, dayRes] = await Promise.all([
-          axios.get(`http://localhost:5000/api/programmes/${daycode}`),
-          axios.get(`http://localhost:5000/api/day/${daycode}`),
+          axios.get(`https://nwcn.org.ng/api/programmes/${daycode}`),
+          axios.get(`https://nwcn.org.ng/api/day/${daycode}`),
         ]);
 
         setProgrammes(progRes.data);

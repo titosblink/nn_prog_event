@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+.admin-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-btn {
+  padding: 10px 20px;
+  background: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

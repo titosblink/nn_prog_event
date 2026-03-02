@@ -18,7 +18,7 @@ function Home() {
   useEffect(() => {
     const fetchDays = async () => {
       try {
-        const res = await axios.get<Day[]>("http://localhost:5000/api/days");
+        const res = await axios.get<Day[]>("https://nwcn.org.ng/api/days");
         setDays(res.data);
       } catch (err) {
         console.error(err);
