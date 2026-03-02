@@ -10,7 +10,7 @@ function AdminLogin() {
   const login = async () => {
     try {
       const res = await axios.post(
-        "https://your-heroku-app.herokuapp.com/api/admin/login",
+        "https://nnweek-backend-e1b1368615cb.herokuapp.com/api/admin/login",
         { username, password },
       );
 

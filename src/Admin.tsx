@@ -3,7 +3,7 @@ import axios from "axios";
 import Footer from "./Footer";
 
 function Admin() {
-  const API = "https://your-heroku-app.herokuapp.com/api";
+  const API = "https://nnweek-backend-e1b1368615cb.herokuapp.com/api";
   const token = localStorage.getItem("token");
 
   const [daynumber, setDayNumber] = useState("");

@@ -18,7 +18,9 @@ function Home() {
   useEffect(() => {
     const fetchDays = async () => {
       try {
-        const res = await axios.get<Day[]>("https://nwcn.org.ng/api/days");
+        const res = await axios.get<Day[]>(
+          "https://nnweek-backend-e1b1368615cb.herokuapp.com/api/days",
+        );
         setDays(res.data);
       } catch (err) {
         console.error(err);
