@@ -3,7 +3,7 @@ import Welcome from "./Welcome";
 import Home from "./Home";
 import Programme from "./Programme";
 import Admin from "./Admin";
-import AdminLogin from "./AdminLogin"; // ✅ THIS was missing
+import AdminLogin from "./AdminLogin";
 import ProtectedRoute from "./routes/ProtectedRoute";
 
 function App() {
